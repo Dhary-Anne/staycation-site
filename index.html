@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staycation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header" id="heading">
+        <nav class="nav nav-container" id="nav-bar">
+            <a href="#" class="logo-link">Staycation</a>
+            <div class="nav-headings" id="nav-headings">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Become a host</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sign up</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Log in</a></li>
+                </ul>
+            </div>
+
+            <div></div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="form-container">
+                <form class="booking-form">
+                    <label for="location" name="location">Location</label>
+                    <input type="text" name="location" class="location" id="form-location" placeholder="Nearby" required>
+                    <label for="check-in" name="check-in" class="check-in">CHECK IN</label>
+                    <input type="date" name="check-in" class="check-in" id="check-in" placeholder="Add Date">
+                    <label for="check-out" name="check-out">CHECK OUT</label>
+                    <input type="date" name="check-out" class="check-out" id="check-out" placeholder="Add Date" required>
+                    <label for="adult-count" name="adult-count">Adults</label>
+                    <input type="number" name="adult-count" id="adult-count" placeholder="0" min="1" max="16">
+                    <label for="child-count" name="child-count">CHILDREN</label>
+                    <input type="number" name="child-count" id="child-count" placeholder="0" min="0" max="8">
+                    <p>Amenities</p>
+                    <button class="amen-btns">Hot tub</button>
+                    <button class="amen-btns">Pool</button>
+                    <button class="amen-btns">Wifi</button>
+                    <button class="submit-form">Search</button>
+                </form>
+            </div>
+
+            <div class="home-img-container">
+                <img src="#" alt="house with big front yard">
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
