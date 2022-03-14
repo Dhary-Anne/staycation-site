@@ -169,6 +169,10 @@ a{
     height: 35vh;
     border-radius: 5%;
 }
+.review-p{
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+}
 .prof-pic{
     height: 10vh;
     border-radius: 50%;
@@ -177,21 +181,29 @@ a{
 }
 .reviews{
     margin-left: 30px;
+    margin-top: 40px;
+    line-height: 1px;
 }
 .review-count{
     color: #918E9B;
 }
+.person-name{
+    display: inline;
+}
 .location{
     color: #918E9B;
     font-family: Poppins, sans-serif;
+    display: block;
     font-weight: 600;
-    line-height: -0px;
+    text-align: left;
+    margin-left: 80px;
+    line-height: 10px;
 }
 
 /* Benefits Section */
 .benefits-container{
     display: flex;
-    padding: 40px;
+    padding: 50px;
     align-items: center;
 }
 hr{
@@ -199,4 +211,8 @@ hr{
     border: 0 none;
     color: #eee;
     height: 1.5px;
+    width: 92%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
 }
