@@ -129,17 +129,18 @@ a{
     margin-right: 20px;
 }
 .hosting{
-    background-color: lightgrey;
+    background-color: #333333;
     align-items: center;
     justify-content: center;
     height: 60vh;
-    width: 40vw;
+    width: 60vw;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding-top: 75px;
     padding-left: 25px;
     padding-right: 25px;
     margin-left: 30px;
+    color: #FFFFFF;
 }
 .learn-button{
     padding: 15px;
@@ -151,11 +152,51 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-items: space-between;
+    width: 90vw;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.review-card{
+    width: 480px;
+    padding-left: 30px;
 }
 .star-img{
     height: 15px;
 }
 .card-house{
-    height: 30vh;
+    height: 35vh;
     border-radius: 5%;
+}
+.prof-pic{
+    height: 10vh;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.reviews{
+    margin-left: 30px;
+}
+.review-count{
+    color: #918E9B;
+}
+.location{
+    color: #918E9B;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: -0px;
+}
+
+/* Benefits Section */
+.benefits-container{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+hr{
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 1.5px;
 }
