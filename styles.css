@@ -78,6 +78,7 @@ a{
 }
 #nav-headings{
     float: right;
+    color: #918E9B;
 }
 
 
@@ -90,7 +91,7 @@ a{
     position: relative;
 }
 .booking-form{
-    height: 60vh;
+    height: 65vh;
     width: 30vw;
     border: 1px solid black;
     background-color: #FFFFFF;
@@ -168,8 +169,9 @@ a{
     height: 15px;
 }
 .card-house{
-    height: 35vh;
+    height: 40vh;
     border-radius: 5%;
+    width: 30vw;
 }
 .review-p{
     font-family: Poppins, sans-serif;
@@ -218,4 +220,81 @@ hr{
     align-items: center;
     justify-content: center;
     margin-left: 35px;
+}
+
+/* Just Booked */
+.just-booked-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: space-between;
+    width: 80vw;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    flex: 0 0 auto; 
+}
+.booked-card{
+    width: 460px;
+    padding-left: 20px;
+}
+.card-house-2{
+    height: 35vh;
+    border-radius: 5%;
+    width: 22vw;
+}
+.right-span{
+    
+}
+.booked-header{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.show-more-btn{
+    padding: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 7%;
+    background-color: white;
+    border-width: 0.5px;
+}
+.show-more-btn:hover{
+    cursor: pointer;
+}
+.add-dates-btn{
+    color: white;
+    background-color: #222222;
+    padding: 18px;
+    border-radius: 10%;
+    border-width: 0.5px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.add-dates-btn:hover{
+    cursor: pointer;
+}
+.pricing{
+    color: #918E9B;
+    font-family: Poppins, sans-serif;
+    line-height: 14px;
+}
+.copyright{
+    color: #918E9B;
+    font-size: .8rem;
+    margin-left: 15px;
+}
+.copyright a{
+    color: #918E9B;
+    font-size: .8rem;
+}
+.copyright.a{
+    margin-left: 25px;
+}
+.copyright a:hover{
+    cursor: pointer;
+    border-bottom: .5px solid black;
+}
+.social-icons img{
+    display: inline;
+    margin-right: auto;
 }
