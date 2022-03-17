@@ -57,6 +57,7 @@ a{
 }
 .logo-link{
     margin-right: auto;
+    color: #f55a5a;
 }
 
 
@@ -157,6 +158,7 @@ a{
     margin: auto;
     padding-top: 25px;
     padding-bottom: 45px;
+    flex: 0 0 auto;  
 }
 .review-card{
     width: 480px;
@@ -205,6 +207,7 @@ a{
     display: flex;
     padding: 50px;
     align-items: center;
+    flex: 0 0 auto; 
 }
 hr{
     background-color: #eee;
