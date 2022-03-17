@@ -76,6 +76,9 @@ a{
     margin-left: auto;
     color: #918E9B;
 }
+.nav-item:hover{
+    cursor: pointer;
+}
 #nav-headings{
     float: right;
     color: #918E9B;
@@ -99,6 +102,10 @@ a{
     left: 2%;
     right: 10%;
     overflow: hidden;
+}
+.booking-form h2,p{
+    line-height: 25px;
+    margin-bottom: 10px;
 }
 .float-container {
     border: solid 1px #ccc;
@@ -183,14 +190,14 @@ a{
     width: 60vw;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding-top: 95px;
+    padding-top: 50px;
     padding-left: 25px;
     padding-right: 25px;
     margin-left: 30px;
     color: #FFFFFF;
 }
 .hosting h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .hosting p{
     font-size: 1.5rem;
@@ -337,6 +344,8 @@ hr{
     font-family: Poppins, sans-serif;
     line-height: 14px;
 }
+
+/* Footer */
 .copyright{
     color: #918E9B;
     font-size: .8rem;
@@ -356,6 +365,9 @@ hr{
 .social-icons img{
     display: inline;
     margin-right: auto;
+}
+.social-icons{
+    margin-left: 10px;
 }
 @media (max-width: 700px){
     .house-one{
