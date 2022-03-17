@@ -38,20 +38,32 @@
                 <form class="booking-form">
                     <h2>Find places to stay on Staycation</h2>
                     <p>Discover entire homes and private rooms perfect for any trip.</p>
+                   <div class="float-container">
                     <label for="location" name="location">LOCATION</label>
                     <input type="text" name="location" class="location" id="form-location" placeholder="Nearby" required>
+                  </div>  
+                  <div class="float-container in-out">
                     <label for="check-in" name="check-in" class="check-in">CHECK IN</label>
                     <input type="date" name="check-in" class="check-in" id="check-in" placeholder="Add Date">
+                </div> 
+                <div class="float-container in-out">
                     <label for="check-out" name="check-out">CHECK OUT</label>
                     <input type="date" name="check-out" class="check-out" id="check-out" placeholder="Add Date" required>
-                    <label for="adult-count" name="adult-count">Adults</label>
+                </div> 
+                <div class="float-container">
+                    <label for="adult-count" name="adult-count">ADULTS</label>
                     <input type="number" name="adult-count" id="adult-count" placeholder="0" min="1" max="16">
+                </div> 
+                <div class="float-container">    
                     <label for="child-count" name="child-count">CHILDREN</label>
                     <input type="number" name="child-count" id="child-count" placeholder="0" min="0" max="8">
-                    <p>Amenities</p>
+                </div>    
+                    <p class="amenities-p">Amenities</p>
+                  <div class="amen-btns-container">
                     <button class="amen-btns">Hot tub</button>
                     <button class="amen-btns">Pool</button>
                     <button class="amen-btns">Wifi</button>
+                  </div>    
                     <button class="submit-form"><img src="imgs/magnify.png" alt=""> Search</button>
                 </form>
             </div>
@@ -82,8 +94,10 @@
             <div class="reviews-container">
                 <div class="review-card">
                     <img src="imgs/house-three.jpg" alt="" class="card-house">
+                <div>
                     <img src="imgs/star.png" alt="" class="star-img">
                     <span>5.0 • (27)</span>
+                </div>
                     <p class="review-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum eius saepe laboriosam sunt dignissimos, ipsa voluptate quaerat, tempore eos eum distinctio accusantium vitae nemo quas incidunt, iusto alias itaque?</p>
                     <img src="imgs/prof-pic-one.png" alt="" class="prof-pic">
                     <p class="person-name"><strong>Lilli</strong></p>
@@ -92,8 +106,10 @@
 
                 <div class="review-card">
                     <img src="imgs/house-one.jpg" alt="" class="card-house">
+                <div>
                     <img src="imgs/star.png" alt="" class="star-img">
                     <span>5.0 • (43)</span>
+                </div>
                     <p class="review-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum eius saepe laboriosam sunt dignissimos, ipsa voluptate quaerat, tempore eos eum distinctio accusantium vitae nemo quas incidunt, iusto alias itaque?</p>
                     <img src="imgs/prof-pic-two.png" alt="" class="prof-pic">
                     <p class="person-name"><strong>Dana</strong></p>
@@ -102,8 +118,10 @@
 
                 <div class="review-card">
                     <img src="imgs/house-four.jpg" alt="" class="card-house">
+                <div>
                     <img src="imgs/star.png" alt="" class="star-img">
                     <span>5.0 • (77)</span>
+                </div>
                     <p class="review-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum eius saepe laboriosam sunt dignissimos, ipsa voluptate quaerat, tempore eos eum distinctio accusantium vitae nemo quas incidunt, iusto alias itaque?</p>
                     <img src="imgs/prof-pic-three.png" alt="" class="prof-pic">
                     <p class="person-name"><strong>John</strong></p>
@@ -144,42 +162,42 @@
 
             <div class="booked-card">
                 <img src="imgs/house-eight.jpg" alt="" class="card-house-2">
-                <span>Yurt in Galena</span>
+                <span class="home-type">Large cabin in Wisconsin</span>
                 <span class="right-span"><img src="imgs/star.png" alt="" class="star-img"></span>
                 <span class="right-span">4.94</span>
                 <span class="right-span">(70)</span>
-                <p>Forest Garden Yurts</p>
+                <p>Secluded cabin in the heart of the city...</p>
                 <span><strong>$232</strong>/night</span>
             </div>
 
             <div class="booked-card">
                 <img src="imgs/house-five.jpg" alt="" class="card-house-2">
-                <span>Yurt in Galena</span>
+                <span class="home-type">Modern house in Miami</span>
                 <span class="right-span"><img src="imgs/star.png" alt="" class="star-img"></span>
                 <span class="right-span">4.99</span>
                 <span class="right-span">(650)</span>
-                <p>Forest Garden Yurts</p>
-                <span><strong>$104</strong>/night</span>
+                <p>Modern and cozy house 3BR/2BA</p>
+                <span><strong>$404</strong>/night</span>
             </div>
 
             <div class="booked-card">
                 <img src="imgs/house-six.jpg" alt="" class="card-house-2">
-                <span>Yurt in Galena</span>
+                <span class="home-type">Cozy house in Atlanta</span>
                 <span class="right-span"><img src="imgs/star.png" alt="" class="star-img"></span>
                 <span class="right-span">4.84</span>
                 <span class="right-span">(186)</span>
-                <p>Forest Garden Yurts</p>
+                <p>Unique modern house in a great location...</p>
                 <span><strong>$116</strong>/night</span>
             </div>
 
             <div class="booked-card">
                 <img src="imgs/house-seven.jpg" alt="" class="card-house-2">
-                <span>Yurt in Galena</span>
+                <span class="home-type">Entire cabin in Colorado</span>
                 <span class="right-span"><img src="imgs/star.png" alt="" class="star-img"></span>
                 <span class="right-span">4.8</span>
                 <span class="right-span">(98)</span>
-                <p>Forest Garden Yurts</p>
-                <span><strong>$286</strong>/night</span>
+                <p>Heaven in the woods with all you need...</p>
+                <span><strong>$486</strong>/night</span>
             </div>
         </div>  
             <button class="show-more-btn">Show (2000+) ></button>

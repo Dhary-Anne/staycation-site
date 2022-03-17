@@ -80,30 +80,74 @@ a{
     float: right;
     color: #918E9B;
 }
-
-
-/* Header */
-
-
-
 /* form */
 .form-container{
     position: relative;
+    margin: auto;
 }
 .booking-form{
-    height: 65vh;
+    height: 68vh;
     width: 30vw;
     border: 1px solid black;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     border-radius: 8%;
-    padding: 15px;
+    padding: 20px;
     position: absolute;
-    margin-top: 8%;
-    left: 5%;
+    margin-top: 5%;
+    left: 2%;
+    right: 10%;
+    overflow: hidden;
 }
-
+.float-container {
+    border: solid 1px #ccc;
+    padding: 0 3px;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center;
+  }
+  .float-container input {
+    border: none;
+    font-size: 16px;
+    outline: 0;
+    width: 195px;
+    height: 20px;
+    display: block;
+    line-height: 1.2em;
+    margin: auto;
+    font-family: Poppins, sans-serif;
+  }
+  .float-container label {
+    font-size: 10px;
+    font-weight: 900;
+    display: block;
+  }
+  .in-out input{
+      /* display: inline-block; */
+      font-size: 16px;
+  }
+  .amenities-p{
+      font-weight: 900;
+  }
+  .amen-btns{
+      padding: 6px;
+      border-radius: 42%;
+      border-width: 0.5px;
+      margin-bottom: 10px;
+  }
+  .amen-btns:hover{
+      cursor: pointer;
+  }
+  .submit-form{
+      border-radius: 5%;
+      border-width: 0.5px;
+      text-align: center;
+      padding: 7px;
+      color: black;
+      background-color: #f55a5a;
+  }
+/* Header */
 .home-img-container{
     height: 65vh;
     max-width: 100%;
@@ -124,7 +168,7 @@ a{
     justify-content: center;
 }
 .mid-img{
-    height: 60vh;
+    height: 65vh;
     width: 60vw;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -134,19 +178,32 @@ a{
     background-color: #333333;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    justify-items: center;
+    height: 65vh;
     width: 60vw;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding-top: 75px;
+    padding-top: 95px;
     padding-left: 25px;
     padding-right: 25px;
     margin-left: 30px;
     color: #FFFFFF;
 }
+.hosting h2{
+    font-size: 3rem;
+}
+.hosting p{
+    font-size: 1.5rem;
+}
 .learn-button{
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
+    margin-top: 30px;
+    border-width: 0.5px solid black;
+    font-size: 1.2rem;
+}
+.learn-button:hover{
+    cursor: pointer;
 }
 
 /* Reviews */
@@ -202,6 +259,7 @@ a{
     text-align: left;
     margin-left: 80px;
     line-height: 10px;
+    margin-bottom: 20px;
 }
 
 /* Benefits Section */
@@ -243,8 +301,9 @@ hr{
     border-radius: 5%;
     width: 22vw;
 }
-.right-span{
-    
+.home-type{
+    color: #918E9B;
+    margin-left: auto;
 }
 .booked-header{
     margin-left: 30px;
@@ -297,4 +356,150 @@ hr{
 .social-icons img{
     display: inline;
     margin-right: auto;
+}
+@media (max-width: 700px){
+    .house-one{
+        display: none;
+    }
+    .home-img-container{
+        height: 55vh;
+    }
+    .form-container{
+        position: relative;
+        margin: auto;
+    }
+    .booking-form{
+        width: 97%;
+        height: 55vh;
+        position: absolute;
+        top: 55px;
+    }
+    .mid-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .mid-img{
+        height: 60vh;
+        width: 85vw;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+        margin-right: 20px;
+        margin-left: 50px;
+    }
+    .hosting{
+        background-color: #333333;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        height: 60vh;
+        width: 85vw;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        padding-top: 95px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 50px;
+        margin-top: 0px;
+        color: #FFFFFF;
+    }
+    .benefits-container{
+        flex-direction: column;
+    }
+    .reviews-container{
+        flex-direction: column;
+        flex: 1 1 auto;
+    }
+    .card-house{
+        height: 40vh;
+        border-radius: 5%;
+        width: 65vw;
+    }
+    .just-booked-container{
+        flex-direction: column;
+    }
+    .card-house-2{
+        height: 35vh;
+        border-radius: 5%;
+        width: 60vw;
+    }
+}
+
+@media (max-width: 500px){
+    .house-one{
+        display: none;
+    }
+    .home-img-container{
+        height: 55vh;
+    }
+    .form-container{
+        position: relative;
+        margin: auto;
+    }
+    .booking-form{
+        width: 97%;
+        height: 55vh;
+        position: absolute;
+        top: 55px;
+    }
+    .mid-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .mid-img{
+        height: 60vh;
+        width: 85vw;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+    .hosting{
+        background-color: #333333;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        height: 60vh;
+        width: 85vw;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        padding-top: 95px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 30px;
+        margin-top: 0px;
+        color: #FFFFFF;
+    }
+    .benefits-container{
+        flex-direction: column;
+    }
+    .reviews-container{
+        flex-direction: column;
+        flex: 1 1 auto;
+    }
+    .card-house{
+        height: 40vh;
+        border-radius: 5%;
+        width: 85vw;
+    }
+    .just-booked-container{
+        flex-direction: column;
+    }
+    .card-house-2{
+        height: 35vh;
+        border-radius: 5%;
+        width: 78vw;
+    }
+    .nav-item{
+        font-size: 12px;
+    }
 }
